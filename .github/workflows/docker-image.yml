@@ -5,7 +5,7 @@ on: ["push","fork"]
   #   # Runs at midnight UTC every day
   #   - cron: '*/5 * * * *'
 env:
-  USERNAME: ${{ secrets.DOCKER_USERNAME }}
+  USERNAME: ${{ secrets.DOCKER_USER }}
   PASSWORD: ${{ secrets.DOCKER_TOKEN }}
   
 jobs:
