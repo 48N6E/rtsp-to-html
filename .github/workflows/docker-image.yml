@@ -3,7 +3,7 @@ name: Nightly Docker Build
 on:
   schedule:
     # Runs at midnight UTC every day
-    - cron: '*13 * * * *'
+    - cron: '13 * * * *'
 
 jobs:
   build:
