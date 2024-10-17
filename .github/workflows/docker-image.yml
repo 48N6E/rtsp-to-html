@@ -6,7 +6,7 @@ on: ["push","fork"]
   #   - cron: '*/5 * * * *'
 env:
   USERNAME: ${{ secrets.DOCKER_USER }}
-  PASSWORD: ${{ secrets.DOCKER_TOKEN }}
+  PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
   
 jobs:
   build:
